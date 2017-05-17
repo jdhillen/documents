@@ -2,8 +2,6 @@
 
 *All notable changes to this project will be documented in this file.*
 
----
-
 ## [v0.0.0][] - YYYY-MM-DD
 ### Added
 -   Item 1 has been Added
