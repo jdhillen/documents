@@ -8,6 +8,8 @@ function removeStyles(a) {
 }
 ```
 
+---
+
 #### Strip HTML all tags from an HTML string
 ```javascript
 function removeHtmlTags(a) {
