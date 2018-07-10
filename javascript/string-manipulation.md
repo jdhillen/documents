@@ -16,3 +16,13 @@ function removeHtmlTags(a) {
     return a.replace(/(<([^>]+)>)/ig,"");
 }
 ```
+
+---
+
+#### Split a paragraph into a sentence object
+```javascript
+function sentenceSplit(a) {
+    var regex = /[^\.!\?]+[\.!\?]+/g;
+    return a.match(regex);
+}
+```
