@@ -1,7 +1,8 @@
 [String Manipulation](#)
 ===
 
-#### Remove Stlyes from an HTML string
+## Remove Stlyes from an HTML string
+
 ```javascript
 function removeStyles(a) {
     return a.replace(/style="[^"]*"/g, "");
@@ -10,7 +11,8 @@ function removeStyles(a) {
 
 ---
 
-#### Strip HTML all tags from an HTML string
+## Strip HTML all tags from an HTML string
+
 ```javascript
 function removeHtmlTags(a) {
     return a.replace(/(<([^>]+)>)/ig,"");
@@ -19,7 +21,8 @@ function removeHtmlTags(a) {
 
 ---
 
-#### Split a paragraph into a sentence object
+## Split a paragraph into a sentence object
+
 ```javascript
 function sentenceSplit(a) {
     var regex = /[^\.!\?]+[\.!\?]+/g;
