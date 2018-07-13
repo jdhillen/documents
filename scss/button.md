@@ -3,7 +3,7 @@
 
 ```scss
 $font-color: #FFFFFF;
-$bg-color: #0069ED:
+$bg-color: #0069ED;
 $bg-focus: #0053BA;
 
 button {
