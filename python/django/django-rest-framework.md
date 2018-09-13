@@ -11,7 +11,7 @@ This document are some of my notes while learning Django and Django REST Framewo
 * [Python](https://www.python.org/)
 * [pipenv](https://pipenv.readthedocs.io/en/latest/)
 
----
+
 
 ## Getting Started
 ```python
@@ -58,7 +58,7 @@ http://localhost:8000/admin/
 
 ```
 
----
+
 
 ## Getting Started from an Already Created Project
 ```python
@@ -75,7 +75,7 @@ password
 
 ```
 
----
+
 
 ## Useful Commands
 
@@ -90,7 +90,7 @@ heroku run python manage.py makemigrations
 heroku run python manage.py migrate
 ```
 
----
+
 
 ## Useful Links
 
