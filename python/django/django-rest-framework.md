@@ -23,6 +23,7 @@ cd tutorial
 pipenv --python 3.6
 
 # 3 - Install Django and Django Rest Framework
+pipenv install
 pipenv install django
 pipenv install djangorestframework
 pipenv install django-cors-headers
