@@ -14,6 +14,7 @@ This document are some of my notes while learning Django and Django REST Framewo
 
 
 ## Getting Started
+
 ```python
 # 1 - Create a Folder for your project
 mkdir tutorial
@@ -59,9 +60,8 @@ http://localhost:8000/admin/
 
 ```
 
-
-
 ## Getting Started from an Already Created Project
+
 ```python
 # 1 - Clone the Repo then run...
 pipenv shell
@@ -76,22 +76,20 @@ password
 
 ```
 
-
-
 ## Useful Commands
 
 #### Flush the Database & SuperUser
+
 ```python
 python manage.py flush
 ```
 
 #### Run Migrations on Heroku after Git Push
+
 ```python
 heroku run python manage.py makemigrations
 heroku run python manage.py migrate
 ```
-
-
 
 ## Useful Links
 
