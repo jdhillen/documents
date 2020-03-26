@@ -1,10 +1,9 @@
-[Button](https://codepen.io/hankchizljaw/pen/Vxpjvo)
-===
+# [Button](https://codepen.io/hankchizljaw/pen/Vxpjvo)
 
 ```scss
-$font-color: #FFFFFF;
-$bg-color: #0069ED;
-$bg-focus: #0053BA;
+$font-color: #ffffff;
+$bg-color: #0069ed;
+$bg-focus: #0053ba;
 
 button {
     display: inline-block;

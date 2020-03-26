@@ -1,5 +1,4 @@
-[Function - Black and White Opacity](https://css-tricks.com/snippets/sass/black-white-opacity-mixins/)
-===
+# [Function - Black and White Opacity](https://css-tricks.com/snippets/sass/black-white-opacity-mixins/)
 
 ```scss
 @function black($opacity) {
@@ -9,7 +8,6 @@
 @function white($opacity) {
     @return rgba(white, $opacity);
 }
-
 
 // - Example ---------------------------------------------------------------------------------------
 .element0 {

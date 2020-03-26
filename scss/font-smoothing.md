@@ -1,5 +1,4 @@
-[Mixin - Font Smoothing](https://medium.com/@MateMarschalko/improving-font-rendering-with-css-3383fc358cbc)
-===
+# [Mixin - Font Smoothing](https://medium.com/@MateMarschalko/improving-font-rendering-with-css-3383fc358cbc)
 
 ```scss
 .smooth {
@@ -8,9 +7,9 @@
     text-rendering: optimizeLegibility;
 }
 
-
 // - Example ---------------------------------------------------------------------------------------
-html, body {
+html,
+body {
     @extend .smooth;
 }
 ```

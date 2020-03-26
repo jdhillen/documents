@@ -1,5 +1,4 @@
-[Disable Click Events](https://css-tricks.com/almanac/properties/p/pointer-events/)
-===
+# [Disable Click Events](https://css-tricks.com/almanac/properties/p/pointer-events/)
 
 ```scss
 .disable-click {

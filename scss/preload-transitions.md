@@ -1,5 +1,4 @@
-[Transitions Only After Page Load](https://css-tricks.com/transitions-only-after-page-load/)
-===
+# [Transitions Only After Page Load](https://css-tricks.com/transitions-only-after-page-load/)
 
 ```scss
 .preload * {
@@ -13,11 +12,11 @@
 
 ```html
 <body class="preload">
-
-<script>
-    // Then remove the class on page load
-    $(window).load(function() {
-        $("body").removeClass("preload");
-    });
-</script>
+    <script>
+        // Then remove the class on page load
+        $(window).load(function() {
+            $("body").removeClass("preload");
+        });
+    </script>
+</body>
 ```

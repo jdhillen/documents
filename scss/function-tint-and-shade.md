@@ -1,5 +1,4 @@
-[Function - Tint and Shade](https://css-tricks.com/snippets/sass/tint-shade-functions/)
-===
+# [Function - Tint and Shade](https://css-tricks.com/snippets/sass/tint-shade-functions/)
 
 ```scss
 @function tint($color, $percentage) {
@@ -10,10 +9,9 @@
     @return mix(black, $color, $percentage);
 }
 
-
 // - Example ---------------------------------------------------------------------------------------
 .element0 {
-    color: tint(#BADA55, 42%);
+    color: tint(#bada55, 42%);
 }
 
 .element1 {

@@ -1,5 +1,4 @@
-[Mixin - Centering](https://css-tricks.com/snippets/sass/centering-mixin/)
-===
+# [Mixin - Centering](https://css-tricks.com/snippets/sass/centering-mixin/)
 
 ```scss
 @mixin centerer($horizontal: true, $vertical: true) {
@@ -16,7 +15,6 @@
         transform: translate(0, -50%);
     }
 }
-
 
 // - Example ---------------------------------------------------------------------------------------
 .element0 {
