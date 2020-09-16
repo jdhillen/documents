@@ -13,4 +13,9 @@ new Intl.DateTimeFormat("en-US", { dataStyle: "short" }).format(now);
 // 10/15/20
 new Intl.DateTimeFormat("fr-CA", { dataStyle: "long" }).format(now);
 // 15 octobre 2020
+
+// Alternative
+const options = { weekday: "long", hour: "numeric" };
+new Intl.DateTimeFormat("en-US", options).format(new Date());
+// Friday, 2 PM
 ```
