@@ -1,8 +1,8 @@
-# [PROJECT NAME][] - CHANGELOG
+# [PROJECT NAME]() - CHANGELOG
 
-*All notable changes to this project will be documented in this file.*
+_All notable changes to this project will be documented in this file._
 
-## [v0.0.0][] - YYYY-MM-DD
+## [v0.0.0]() - YYYY-MM-DD
 
 ### Added
 
@@ -36,8 +36,6 @@
 
 ---
 
-*The format is based on [Keep a CHANGELOG](http://keepachangelog.com)*
+_The format is based on [Keep a CHANGELOG](http://keepachangelog.com)_
 
 ---
-[PROJECT NAME]: https://url-to-project-on-git.com
-[v0.0.0]: https://link-to-changelog.com
