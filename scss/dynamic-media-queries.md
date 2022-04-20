@@ -14,7 +14,7 @@ $media_queries : (
     'portrait'  : "screen and (orientation:portrait) "
 );
 
-@mixin for_breakpoint($breakpoints) {
+@mixin breakpoint($breakpoints) {
   $conditions : ();
   @each $breakpoint in $breakpoints {
     // If the key exists in the map
@@ -37,7 +37,7 @@ $media_queries : (
   border-bottom:1px solid #eee;
   height: 90px;
   padding: 0 20px;
-  @include for_breakpoint(mobile desktop) {
+  @include breakpoint(mobile desktop) {
     height:70px;
     position:fixed;
     width:100%;
